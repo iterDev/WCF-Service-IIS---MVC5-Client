@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+@*<script type="text/javascript" src="~/Scripts/jquery-2.1.1.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        debugger;
+        $.getJSON("http://localhost/WCFServiceIISJuly31/Math.svc/GetData", "", function (result) {
+            alert(result);
+        });
+    });
+</script>*@
+
+<script type="text/javascript" src="~/Scripts/jquery-2.1.1.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        debugger;
+        $.ajax({
+            type: "GET",
+            processData: true,
+            data: "{}",
+            url: "http://localhost:56935/Math.svc/Add?x=67&y=43",
+            //url: "http://localhost/WCFServiceIISJuly31/Math.svc/Add?x=67&y=43",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (result) {
+                var data = JSON.stringify(result);
+                var obj = $.parseJSON(data);
+                $('#lblText1').text(obj.AddResult);
+            },
+            error: function (error) {
+                alert('Hi failure');
+                alert(error);
+            }
+            //url: "http://localhost:56935/Math.svc/Add?x=67&y=43",
+            //contentType: "application/json; charset=utf-8",
+            //dataType: "json",
+            //success: function (result) {
+            //    alert(result);
+            //    $('#lblText').text(result);
+            //},
+            //error: function (error) {
+            //    alert('WebService Access Failure');
+            //    //alert(error);
+            //}
+        });
+    });
+</script>
+
+<p>Result of the call is:  </p>
+<label id="lblText1"></label>

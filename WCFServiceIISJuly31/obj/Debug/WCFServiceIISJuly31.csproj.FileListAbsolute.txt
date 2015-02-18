@@ -1,0 +1,11 @@
+C:\VS2013-Projects\WCFServiceIISJuly31\bin\WCFServiceIISJuly31.dll.config
+C:\VS2013-Projects\WCFServiceIISJuly31\bin\WCFServiceIISJuly31.dll
+C:\VS2013-Projects\WCFServiceIISJuly31\bin\WCFServiceIISJuly31.pdb
+C:\VS2013-Projects\WCFServiceIISJuly31\obj\Debug\WCFServiceIISJuly31.dll
+C:\VS2013-Projects\WCFServiceIISJuly31\obj\Debug\WCFServiceIISJuly31.pdb
+C:\VS2013-Projects\WCFServiceIISJuly31\obj\Debug\WCFServiceIISJuly31.csprojResolveAssemblyReference.cache
+C:\Projects\public\WCFServiceIISJuly31\bin\WCFServiceIISJuly31.dll.config
+C:\Projects\public\WCFServiceIISJuly31\bin\WCFServiceIISJuly31.dll
+C:\Projects\public\WCFServiceIISJuly31\bin\WCFServiceIISJuly31.pdb
+C:\Projects\public\WCFServiceIISJuly31\obj\Debug\WCFServiceIISJuly31.dll
+C:\Projects\public\WCFServiceIISJuly31\obj\Debug\WCFServiceIISJuly31.pdb
